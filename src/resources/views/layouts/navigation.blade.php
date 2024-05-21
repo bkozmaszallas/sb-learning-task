@@ -1,7 +1,7 @@
 
 <nav>
     <ul>
-        @foreach (['menu1', 'menu2', 'menu3'] as $item)
+        @foreach (['Home', 'Destinations', 'Blog', 'News', 'Contact'] as $item)
             <li>
                 {{ $item }}
             </li>

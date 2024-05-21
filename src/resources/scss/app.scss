@@ -1,5 +1,9 @@
-@import 'config/fonts';
-@import 'layouts/header';
+@import 'components/components';
+@import 'config/config';
+@import 'functions/functions';
+@import 'layouts/layouts';
+@import 'mixins/mixins';
+@import 'pages/pages';
 
 html, body {
     padding: 0;
