@@ -9,31 +9,31 @@
         text-transform: uppercase;
         line-height: 26.4px;
         font-size: 24px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .listings {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 26px;
         width: 280px;
         margin: auto;
 
         .listing {
             display: flex;
             flex-direction: column;
-            gap: 48px;
+            gap: 42px;
             align-items: center;
 
             .listing-icon {
-                width: 80px;
-                height: 80px;
+                width: 64px;
+                height: 64px;
                 background: #EBF9FF;
                 border-radius: 16px;
                 padding: 8px;
 
                 svg {
-                    transform: translateY(60%);
+                    transform: translateY(40%);
                     top: 50%;
                 }
             }
@@ -41,7 +41,7 @@
             .listing-text {
                 display: flex;
                 flex-direction: column;
-                gap: 24px;
+                gap: 20px;
 
                 .listing-title {
                     font-size: 20px;

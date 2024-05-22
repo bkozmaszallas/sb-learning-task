@@ -6,5 +6,6 @@
         @include('pages.home.index')
         @include('pages.home.whychooseus')
         @include('pages.home.ourpartners')
+        @include('pages.home.topbooknow')
     </body>
 </html>

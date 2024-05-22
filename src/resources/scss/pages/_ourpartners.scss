@@ -1,0 +1,39 @@
+.our-partners {
+    text-align: center;
+    margin-top: 80px;
+
+    p {
+        margin: 0;
+    }
+
+    .title {
+        text-transform: uppercase;
+        line-height: 26.4px;
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    .listings {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        width: 1280px;
+
+        .listing {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+
+            .listing-icon {
+                height: 48px;
+            }
+
+            .listing-title {
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 26.4px;
+            }
+        }
+    }
+}
